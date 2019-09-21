@@ -1,136 +1,136 @@
 ﻿@{
     ViewData["Title"] = "Incusão";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+
 
 <p>Cadastro para novos leitores</p>
 
 
             
                 <form action="#" method="POST">
-                    
-                        
-                            <fieldset class="border">
-                                <legend>Dados Pessoais</legend>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <label for="nome">Nome: </label>
-                                        <input type="text" id="nome" placeholder="Nome Completo" class="form-control">
-                                    </div>
+                    <div class="quadroprincipal">
+
+                        <fieldset class="border">
+                            <legend>Dados Pessoais</legend>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <label for="nome">Nome: </label>
+                                    <input type="text" id="nome" placeholder="Nome Completo" class="form-control">
                                 </div>
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <label for="data">Data de Nasc.: </label>
-                                        <input type="date" name="data" placeholder="Data de Nascimento" class="form-control">
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <label for="cpf">CPF: </label>
-                                        <input type="number" name="cpf" placeholder="CPF" class="form-control">
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <label for="rg">RG: </label>
-                                        <input type="number" name="rg"  placeholder="RG" class="form-control">
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <label for="data">Data de Nasc.: </label>
+                                    <input type="date" name="data" placeholder="Data de Nascimento" class="form-control">
                                 </div>
-                            </fieldset>
-                            <fieldset class="border">
-                                <legend>Filiação</legend>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <label for="nomep">Nome do pai: </label>
-                                        <input type="text" id="nomep" placeholder="Nome do Pai" class="form-control">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <label for="nomem">Nome da mae: </label>
-                                        <input type="text" id="nomem" placeholder="Nome da Mãe" class="form-control">
-                                    </div>
+                                <div class="col-sm-4">
+                                    <label for="cpf">CPF: </label>
+                                    <input type="number" name="cpf" placeholder="CPF" class="form-control">
                                 </div>
-                            </fieldset>
-                            <fieldset class="border">
-                                <legend>Dados Estudantis</legend>
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <br>
-                                        <input type="checkbox" name="aluno" value="1">
-                                        <label for="aluno">Aluno: </label>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <label for="matric">Matrícula: </label>
-                                        <input type="text" id="matric" placeholder="Numero de Matrícula" class="form-control">
-                                    </div>
-                                    <div class="col-sm-3">                                       
-                                        <label for="turma">Turma: </label>
-                                        <input type="text" id="turma" placeholder="Turma" class="form-control">
-                                    </div>
-                                    <div class="col-sm-3">                                        
-                                        <label for="hora">Horário: </label>
-                                        <input type="text" id="Hora" placeholder="Periodo" class="form-control">
-                                    </div>
+                                <div class="col-sm-4">
+                                    <label for="rg">RG: </label>
+                                    <input type="number" name="rg" placeholder="RG" class="form-control">
                                 </div>
-                            </fieldset>
-                            <fieldset class="border">
-                                <legend>Contatos</legend>
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <label for="telc">Tel. Celular: </label>
-                                        <input type="phone" id="telc" placeholder="Celular" class="form-control">
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <label for="telf">Tel. Residencial: </label>
-                                        <input type="phone" id="telf" placeholder="Residencial" class="form-control">
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <label for="telr">Tel. Recado: </label>
-                                        <input type="phone" id="telr" placeholder="Recado" class="form-control">
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <label for="contato">Nome do Contato: </label>
-                                        <input type="text" id="contato" placeholder="Nome do Contato" class="form-control">
-                                    </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="border">
+                            <legend>Filiação</legend>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="nomep">Nome do pai: </label>
+                                    <input type="text" id="nomep" placeholder="Nome do Pai" class="form-control">
                                 </div>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <label for="mail">E-Mail: </label>
-                                        <input type="email" id="mail" placeholder="E-mail" class="form-control">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <label for="site">Pagina Pessoal: </label>
-                                        <input type="email" id="site" placeholder="www." class="form-control">
-                                    </div>
+                                <div class="col-sm-6">
+                                    <label for="nomem">Nome da mae: </label>
+                                    <input type="text" id="nomem" placeholder="Nome da Mãe" class="form-control">
                                 </div>
-                            </fieldset>
-                            <fieldset class="border">
-                                <legend>Endereço</legend>
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <label for="cep">CEP: </label>
-                                        <input type="text" id="cep" placeholder="CEP" class="form-control">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <label for="logr">Logradouro: </label>
-                                        <input type="text" id="logr" placeholder="Logradouro" class="form-control">
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <label for="nresidencia">Número: </label>
-                                        <input type="text" id="nresidencia" placeholder="Nº" class="form-control">
-                                    </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="border">
+                            <legend>Dados Estudantis</legend>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <br>
+                                    <input type="checkbox" name="aluno" value="1">
+                                    <label for="aluno">Aluno: </label>
                                 </div>
-                                <div class="row">
-                                    <div class="col-sm-5">
-                                        <label for="cidade">Cidade: </label>
-                                        <input type="text" id="cidade" placeholder="Cidade" class="form-control">
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <label for="uf">UF: </label>
-                                        <input type="text" id="uf" placeholder="UF" class="form-control">
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <label for="referenc">Ponto de Referência: </label>
-                                        <input type="text" id="referenc" placeholder="Ponto de Referência" class="form-control">
-                                    </div>
+                                <div class="col-sm-3">
+                                    <label for="matric">Matrícula: </label>
+                                    <input type="text" id="matric" placeholder="Numero de Matrícula" class="form-control">
                                 </div>
-                            </fieldset>
+                                <div class="col-sm-3">
+                                    <label for="turma">Turma: </label>
+                                    <input type="text" id="turma" placeholder="Turma" class="form-control">
+                                </div>
+                                <div class="col-sm-3">
+                                    <label for="hora">Horário: </label>
+                                    <input type="text" id="Hora" placeholder="Periodo" class="form-control">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="border">
+                            <legend>Contatos</legend>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <label for="telc">Tel. Celular: </label>
+                                    <input type="phone" id="telc" placeholder="Celular" class="form-control">
+                                </div>
+                                <div class="col-sm-3">
+                                    <label for="telf">Tel. Residencial: </label>
+                                    <input type="phone" id="telf" placeholder="Residencial" class="form-control">
+                                </div>
+                                <div class="col-sm-3">
+                                    <label for="telr">Tel. Recado: </label>
+                                    <input type="phone" id="telr" placeholder="Recado" class="form-control">
+                                </div>
+                                <div class="col-sm-3">
+                                    <label for="contato">Nome do Contato: </label>
+                                    <input type="text" id="contato" placeholder="Nome do Contato" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="mail">E-Mail: </label>
+                                    <input type="email" id="mail" placeholder="E-mail" class="form-control">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="site">Pagina Pessoal: </label>
+                                    <input type="email" id="site" placeholder="www." class="form-control">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="border">
+                            <legend>Endereço</legend>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <label for="cep">CEP: </label>
+                                    <input type="text" id="cep" placeholder="CEP" class="form-control">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="logr">Logradouro: </label>
+                                    <input type="text" id="logr" placeholder="Logradouro" class="form-control">
+                                </div>
+                                <div class="col-sm-2">
+                                    <label for="nresidencia">Número: </label>
+                                    <input type="text" id="nresidencia" placeholder="Nº" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <label for="cidade">Cidade: </label>
+                                    <input type="text" id="cidade" placeholder="Cidade" class="form-control">
+                                </div>
+                                <div class="col-sm-2">
+                                    <label for="uf">UF: </label>
+                                    <input type="text" id="uf" placeholder="UF" class="form-control">
+                                </div>
+                                <div class="col-sm-5">
+                                    <label for="referenc">Ponto de Referência: </label>
+                                    <input type="text" id="referenc" placeholder="Ponto de Referência" class="form-control">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
                             <!--
     <br>
     <label for="sexo">Sexo: </label>
